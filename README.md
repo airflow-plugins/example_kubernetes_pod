@@ -1,5 +1,5 @@
 # Kubernetes PodOperator
-Running the KubernetesPodOperator on Airflow 1.9
+## Running the KubernetesPodOperator on Airflow 1.9
 
 The KubernetesPodOperator spins up a pod to run a Docker container in. If you are running Airflow on Kubernetes, it is preferable to do this rather than use the DockerOperator.
 
