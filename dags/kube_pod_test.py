@@ -28,5 +28,4 @@ with dag:
         name="airflow-test-pod",
         in_cluster=True,
         task_id="task-two",
-        get_logs=True,
-        dag=dag)
+        get_logs=True)
